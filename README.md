@@ -1,6 +1,6 @@
-- nom :
-- prénom :
-- URL Netlify :
+- nom : CHOULET
+- prénom : ADRIEN
+- URL Netlify : https://app.netlify.com/teams/achoule2/sites
 
 # Travail
 
