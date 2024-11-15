@@ -1,11 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galerie de Chats</title>
+  <link rel="stylesheet" href="/src/css/components/menu.css">
+  <script type="module" src="/src/js/script.js"></script>
 </head>
+
 <body>
-    
+
+  <header class="header container">
+    <div class="header__end">
+      <button class="header__menu-btn menu-btn" aria-label="menu" aria-expanded="false" aria-controls="mainNav">
+        🍔
+      </button>
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="chat.html">chat</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="chien.html">chien</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="index.html">accueil</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Item de menu quatre</a>
+          </li>
+        </ul>
+      </nav>
+
+      <h1>Galerie de Chats</h1>
+    <p>Découvrez nos adorables chats ci-dessous !</p>
+      
+    </div>
+  </header>
+  <main>
+    <section>
+      <article>
+        <img src="/public/chat1.jpg" alt="Chat 1">
+        <p>Voici le chat numéro 1, il est très mignon !</p>
+      </article>
+
+      <article>
+        <img src="/public/chat2.jpg" alt="Chat 2">
+        <p>Ce chat adore se prélasser au soleil.</p>
+      </article>
+
+      <article>
+        <img src="/public/chat3.jpg" alt="Chat 3">
+        <p>Un chat curieux qui aime explorer.</p>
+      </article>
+
+      <article>
+        <img src="/public/chat4.jpg" alt="Chat 4">
+        <p>Un chat joueur et très câlin.</p>
+      </article>
+    </section>
+  </main>
+  
 </body>
+
 </html>
